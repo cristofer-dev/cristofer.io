@@ -1,0 +1,45 @@
+<div class="container-fluid menu-fluid">
+  <div class="container">
+    <div class="row menu lato">
+      <div class="col-md-4 text-center logo">
+        <a href="/">
+          <img src="/assets/images/logo.png">
+        </a>
+      </div>
+
+      {% assign pages = site.pages | sort:"order"  %}
+        {% for my_page in pages %}
+          {% if my_page.title %}
+            {% if page.url == my_page.url %}
+                                      
+            <div class="col-md-2 text-center">
+              <!-- <a href="{{ my_page.url | prepend: site.baseurl }}"> -->
+                <div class="boton">
+                  {{ my_page.title }}
+                </div>
+              <!-- </a> -->
+            </div>
+                
+                                      
+            {% else %}
+            <a href="{{ my_page.url | prepend: site.baseurl }}">
+              <div class="col-md-2 text-center">
+                <div class="boton">
+                  {{ my_page.title }}
+                </div>
+              </div>
+            </a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      
+        <a href="/">
+              <div class="col-md-2 text-center">
+                <div class="boton">
+                  Blog
+                </div>
+              </div>
+            </a>
+    </div>
+  </div>
+</div>

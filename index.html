@@ -1,0 +1,32 @@
+---
+layout: page
+---
+
+<div class="container p-t-20">
+	<div class="row">
+		{% for post in paginator.posts %}
+		<div class="col-md-4 post">
+			{% if post.image %}
+				<a href="{{ post.url | prepend: site.baseurl }}" class="inner">
+          <div class="img_post">
+            <img src="{{ site.baseurl }}/content/images/{{ post.image }}">
+          </div>
+        </a>
+			{% endif %}
+			<div>
+            	<time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+              	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%B %-d, %Y" }}</a>
+            	</time>
+          	</div>
+
+          	<div class="f-20">
+          		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          	</div>
+          	<div class="bajada">
+          		{{ post.excerpt }}
+          	</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+

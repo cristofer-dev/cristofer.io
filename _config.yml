@@ -1,0 +1,21 @@
+# Site settings
+title: "Cristofer.i0"
+logo: logo.png # image from https://www.flickr.com/photos/lwr/5496279831/in/set-72157594159055823
+email: your-email@domain.com
+description: > # this means to ignore newlines until "url:"
+   Ing. de Profesión... Apasionado por la tecnología y la programación! Veterano del PHP, MySQL y el HTML, newbie AngularJS, NodeJS, MongoDB.
+url: "http://cristofer.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: cristofer_dev
+github_username:  cristofer-dev
+
+permalink: pretty
+paginate: 5
+
+# Build settings
+markdown: kramdown
+
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
