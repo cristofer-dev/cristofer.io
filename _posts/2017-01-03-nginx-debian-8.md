@@ -49,6 +49,11 @@ en la ruta <code>/etc/php5/fpm/php.ini</code> agregar
 extension=mongo.so
 {% endhighlight %}
 
+Al hacer cambios en `php.ini` debemos reiniciar el servicio `php5-fpm`
+
+{% highlight Bash %}
+service php5-fpm restart
+{% endhighlight %}
 
 
 ###### Configurar el HOST
