@@ -495,7 +495,7 @@ article .text {
     word-wrap: break-word
 }
 article .text p,  article .text img, article .text ol, article .text ul, article .text dl, article .text hr, article .text blockquote {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     text-align: left
 }
 article .text pre{
@@ -583,7 +583,8 @@ article .text code {
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
     border-radius: 6px;
-    word-wrap: normal
+    word-wrap: normal;
+    line-height: 1.5;
 }
 article .text h1, 
 article .text h2, 

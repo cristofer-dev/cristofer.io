@@ -4,7 +4,7 @@ title: "Android Logs"
 image: img3.png
 ---
 
-Ver logs en terminal de uns dispositivo ANDROID conectado por USB en Debian 8.
+Ver logs en terminal de un dispositivo ANDROID conectado por USB en Debian 8.
 
 
 ###### Actualizamos
