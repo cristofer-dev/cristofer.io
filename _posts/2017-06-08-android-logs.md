@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android Logs"
-image: img3.png
+image: android.jpg
 ---
 
 Ver logs en terminal de un dispositivo ANDROID conectado por USB en Debian 8.
