@@ -1,6 +1,24 @@
-# Joon: Roon theme for Jekyll
+# Install
 
-Jekyll theme based on the Roon for [Ghost](http://github.com/tryghost/roon/).
+`apt-get install ruby-full make gcc`
+
+`gem install jekyll bundler`
+
+`apt-get bundle install`
+
+Si explotar por que falta la libreria  `nokogiri`
+
+	`apt-get install build-essential patch`
+
+	`apt-get install ruby-dev zlib1g-dev liblzma-dev`
+
+Vuelve a correr el install dentro del directorio
+
+`apt-get bundle install`
+
+Para correr localmente el proyecto
+
+`bundle exec jekyll serve -P 5000`
 
 ## Demo
 View this jekyll theme in action [here](https://vormwald.github.io/joon)
