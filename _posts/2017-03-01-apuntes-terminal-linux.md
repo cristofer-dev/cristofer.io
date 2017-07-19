@@ -68,7 +68,7 @@ Estando como SU abriremos el archivo `profile` con gedit (u otro editor)
 
 Buscamos
 
-{% highlight Bash %}
+{% highlight Bash linenos %}
 
 # enable bash completion in interactive shells <br>
 #if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
