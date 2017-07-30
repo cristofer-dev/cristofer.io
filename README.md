@@ -4,7 +4,7 @@
 
 `gem install jekyll bundler`
 
-`apt-get bundle install`
+`bundle install`
 
 Si explotar por que falta la libreria  `nokogiri`
 
@@ -14,7 +14,7 @@ Si explotar por que falta la libreria  `nokogiri`
 
 Vuelve a correr el install dentro del directorio
 
-`apt-get bundle install`
+`bundle install`
 
 Para correr localmente el proyecto
 
