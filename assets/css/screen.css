@@ -544,6 +544,7 @@ article .text small {
 article .text pre {
     /*padding: 14px 20px;*/
     /*font-size: 16px;*/
+    margin-bottom: 30px;
     max-width: 100%;
     overflow-x: auto;
     line-height: 1.4em;
