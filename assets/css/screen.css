@@ -495,7 +495,7 @@ article .text {
     word-wrap: break-word
 }
 article .text p,  article .text img, article .text ol, article .text ul, article .text dl, article .text hr, article .text blockquote {
-    /*margin-bottom: 30px;*/
+    margin-bottom: 30px;
     text-align: left
 }
 article .text pre{
