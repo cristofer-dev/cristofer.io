@@ -2,6 +2,7 @@
 layout: post
 title: "AWS CodeDeploy"
 image: aws.png
+published: true
 ---
 
 Automatiza las implementaciones de código
