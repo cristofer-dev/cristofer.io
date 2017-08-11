@@ -10,11 +10,12 @@ twitter_username: cristofer_dev
 github_username:  cristofer-dev
 
 permalink: pretty
-paginate: 10
+paginate: 99
 
 # Build settings
 markdown: kramdown
-
+kramdown:
+  input: GFM
 
 gems:
   - jekyll-sitemap
