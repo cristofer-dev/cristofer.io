@@ -130,6 +130,7 @@ Si se va a Generar un ASG y su respectiva Launch Configurations basa en una AMI,
 
 **`IMPORTANTE`** : Todas las EC2 que se creen para interactuar con **Codedeploy** deberan tener asignado el **`IAM Role`** que creamos para tal proposito (`AWSCodeDeployRoleForEC2`) de lo contrario las EC2 no tendran acceso a S3 para obtener el SourceCode.
 
+**`CodeDdeployAgent`** genera logs de sus operaciones en `/var/log/aws/codedeploy-agent/`  para revisar si algo no funciona, puedes monitorear usando `tail -f /var/log/aws/codedeploy-agent/codedeploy-agent.log` para verlos en tiempo real mientras se ejecuta un despliegue.
 
 
 Creando CodeDeploy en una **EC2**
