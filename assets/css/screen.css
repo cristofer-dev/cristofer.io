@@ -692,9 +692,10 @@ article .text hr {
 article .text blockquote {
     margin: 42px 10px;
     padding-left: 20px;
-    border-left: 4px solid #FF3333;
-    font-size: 23px;
-    font-family: 'Roboto Slab';
+    border-left: 4px solid #0F84DB;
+    color: #8e908c
+    /*font-size: 23px;*/
+    /*font-family: 'Roboto Slab';*/
 }
 /*article .text table {
     display: block;
