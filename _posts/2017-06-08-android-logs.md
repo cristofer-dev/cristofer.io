@@ -43,7 +43,7 @@ ZY223RJ27V  offline
 
 
 ###### Ver logs
-Para ello usaremos logcat
+Para ello usaremos logcat y filtraremos con `grep` la salida, siendo `'palabra'` (entre comillas simple) el filtro que aplicaremos a la salida
 {% highlight Bash %}
-adb -d logcat com.miapp
+adb logcat | grep 'palabra'
 {% endhighlight %}
