@@ -24,7 +24,7 @@ Crear par de llaves SSH | `ssh-keygen`
 ver procesos corriendo                    | `top`
 matar proceso indicando el id               | `kill 9999`
 Ver tamaño de carpeta ( DU = Disk Usage )   | `du -bsh /fichero_carpeta`
-Uso del disco duro                          | `df`
+Uso del disco duro                          | `df -h`
 Uso del disco duro (iNodos)                 | `df -i`
 buscar texto recursivo en un directorio     | `grep -ri "izitdb.com" /srv/websites/`
 Guardar salida en archivo                   | `[comando] > archivo.txt`
